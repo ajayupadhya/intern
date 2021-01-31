@@ -1,0 +1,30 @@
+.gridContainer {
+  display: grid;
+  grid-template-columns: repeat(4, 300px);
+  grid-auto-rows: 390px;
+  grid-gap: 30px;
+  justify-content: center;
+  align-items: center;
+  background-color: #dde1e7;
+}
+@media only screen and (max-width: 1300px) {
+  .gridContainer {
+    grid-template-columns: repeat(3, 300px);
+  }
+}
+  
+
+@media only screen and (max-width:900px) {
+  .gridContainer {
+    grid-template-columns: repeat(2, 300px);
+  }
+  
+  
+}
+@media only screen and (max-width: 643px) {
+  .gridContainer {
+    grid-template-columns: repeat(1, 300px);
+  }
+  
+  
+}

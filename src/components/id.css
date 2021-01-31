@@ -1,0 +1,48 @@
+.userId {
+  border-radius: 25px;
+  z-index: 2;
+  box-shadow: -3px -3px 5px #ffffff70, 3px 3px 15px #00000090;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 400px;
+  flex-direction: column;
+
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.imgs {
+  background-size: cover;
+  border-radius: 20px;
+  background-size: 200px;
+  margin-top: 0px;
+  width: 190px;
+}
+.info {
+  width: 250px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+
+  border-radius: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 120px;
+}
+
+.name {
+  color: black;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  margin-left: 15px;
+}
+.imgdiv {
+  
+  width: 200px;
+  height: 200px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
